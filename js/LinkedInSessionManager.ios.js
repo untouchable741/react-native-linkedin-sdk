@@ -31,6 +31,9 @@ const LinkedInSDK = {
   getRequest(url) {
     return RNLinkedInSessionManager.getRequest(url);
   },
+  logout(){
+    return RNLinkedInSessionManager.logout()
+  }
 };
 
 module.exports = LinkedInSDK;

@@ -34,6 +34,10 @@ const LinkedInSDK = {
         data: JSON.parse(data),
       }));
   },
+  logout(){
+    console.log('NOT IMPLEMENTED')
+    return () => {};
+  }
 };
 
 module.exports = LinkedInSDK;

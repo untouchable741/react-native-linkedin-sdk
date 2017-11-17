@@ -20,6 +20,6 @@ RCT_EXTERN_METHOD(authorize:
 RCT_EXTERN_METHOD(getRequest:(NSString *)url
                   resolve:(RCTPromiseResolveBlock)resolve
                   reject:(RCTPromiseRejectBlock)reject);
-
+RCT_EXTERN_METHOD(logout)
 
 @end

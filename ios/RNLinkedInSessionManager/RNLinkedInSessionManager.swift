@@ -91,4 +91,7 @@ class RNLinkedInSessionManager: NSObject {
     }
   }
   
+  @objc func logout() {
+    LinkedinSwiftHelper.clearSession()
+  }
 }
