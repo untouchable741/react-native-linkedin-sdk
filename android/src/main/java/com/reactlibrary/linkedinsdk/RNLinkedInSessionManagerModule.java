@@ -196,4 +196,9 @@ public class RNLinkedInSessionManagerModule extends ReactContextBaseJavaModule i
             }
         });
     }
+
+    @ReactMethod
+    public void logout() {
+        getLISessionManager().clearSession();
+    }
 }

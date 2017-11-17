@@ -35,8 +35,7 @@ const LinkedInSDK = {
       }));
   },
   logout(){
-    console.log('NOT IMPLEMENTED')
-    return () => {};
+    return RNLinkedInSessionManager.logout()
   }
 };
 
